@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aproveitamento Aluno</title>
+    <link rel="stylesheet" href="aproveitamento.css">
+</head>
+
+<body>
+    <header>
+        <h1>Elite Way School</h1>
+    </header>
+    <section>
+        <h2>Digite sua primeira nota:</h2><input type="number" name="notaumCtx" id="notaumTxt" />
+        <h2>Digite sua segunda nota:</h2><input type="number" name="notadoisCtx" id="notadoisTxt" /><br />
+        <input type="submit" value="Verificar" onclick="calcular()">
+        <button onClick="window.location.href=window.location.href">Limpar</button>
+        <div id="res"></div>
+    </section>
+    <script src="aproveitamento.js"></script>
+</body>
+
+</html>
